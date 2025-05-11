@@ -7,6 +7,7 @@ import os
 import mlflow
 from prepare_dataset import load_config
 
+
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
     mae = mean_absolute_error(actual, pred)

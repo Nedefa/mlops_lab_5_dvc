@@ -2,7 +2,6 @@ import os
 from os import name
 from sklearn.preprocessing import StandardScaler, PowerTransformer
 import pandas as pd
-# from sklearn.model_selection import train_test_split
 import mlflow
 from sklearn.linear_model import Lasso, Ridge, SGDRegressor
 from sklearn.model_selection import GridSearchCV
@@ -12,8 +11,6 @@ from mlflow.models import infer_signature
 import joblib
 from sklearn.pipeline import Pipeline
 import pickle
-# from sklearn.pipeline import make_pipeline
-# from src.model_scripts.plot_model import vis_weigths
 from sklearn.ensemble import ExtraTreesRegressor
 
 def eval_metrics(actual, pred):
