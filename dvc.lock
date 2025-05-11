@@ -77,5 +77,5 @@ stages:
       size: 530
     - path: src/stages/test_model.py
       hash: md5
-      md5: ecf9beaca70c732d362dc6a741c59fea
-      size: 1712
+      md5: 1bdcb220cadf73c65160ba5388da394c
+      size: 1714
